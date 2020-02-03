@@ -1,3 +1,24 @@
+''' 
+By: Abdulah Amer 
+Date: 02/02/2020
+
+A 'fixed' version of the wavefunction()
+used in Introduction to Coding Quantum AlgorithmsL A Tutorial Series Using Qiskt. 
+Text is by Daniel Koch, Laura Wessing, and Paul M. Alsing.(Air Force Research Lab, 
+Information Directorate, Rome, New York) 
+
+In the Text's appendix, there is code for functions used in the text that help improve 
+experience whilst using Qiskit. 
+
+The raw code there did not work for me, namely a Binary2() function that did not exist
+to the best of my knowledge in the libraries I am using and the ones they were using. 
+
+I made necessary changes and am happy with the result. 
+
+Please save this .py file and import as qf (or whatever you'd like) and use 
+qf.wavefunction() to get much more easily readable output. 
+'''
+
 from qiskit import ClassicalRegister, QuantumRegister, QuantumCircuit, Aer, execute
 import numpy as np
 import math as m
