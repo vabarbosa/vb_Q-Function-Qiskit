@@ -1,4 +1,4 @@
-# Quantum-Computing
+# Q-Function Qiskit 
 Solving problems in quantum computing using the QISKIT framework 
 
 Here is an impovement on a function that prints out the Wavefunction of a quantum circuit in Dirac notation and cuts out all the zero entries
